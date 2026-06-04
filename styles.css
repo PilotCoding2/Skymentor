@@ -20,6 +20,8 @@
 
 body{
     background-color: var(--horizon-white);
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -72,6 +74,7 @@ body{
 }
 
 .hero p{
+    margin-top: 1.5rem;
     color: var(--cloud-gray);
 }
 
@@ -113,4 +116,32 @@ body{
 .card p{
     color: var(--cloud-gray);
 }
+
+#courses{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#courses h2{
+    font-family: var(--main-font);
+    font-size: 2.5rem;
+}
+
+#courses select{
+    font-family: var(--body-font);
+    text-align: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: 2px solid var(--deep-sky);
+    border-radius: 10px;
+    width: 15vw;
+    padding: 0.25rem;
+}
+
+#courses select:hover{
+    border: 2px solid var(--mentor-gold);
+}
+
 

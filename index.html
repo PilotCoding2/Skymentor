@@ -44,18 +44,21 @@
                 <p>Únete con otros estudiantes y profesionales a través de Discord</p>
             </div>
         </div>
-        <div id="cursos">
+        <div id="courses">
             <h2>Nuestros cursos</h2>
-            <div class="curso-ciaac">
-                <h2>Curso CIAAC</h2>
-                <p>Acredita el examen CIAAC al primer intento. Nuestro curso está especialmente diseñado para ayudarte a pasar tu examen profesional. Disponible 24/7, con ayuda de profesionales</p>
-                <button>Saber más</button>
-            </div>
+            <select id="courses-selector" name="courses">
+                <option value="ciaac" selected="selected">CIAAC</option>
+                <option value="english">Inglés Aeronaútico</option>
+                <option value="airline">Airline Ready</option>
+            </select>
+            <div class="course-content"></div>
+
         </div>
 
     </main>
     <footer>
 
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
